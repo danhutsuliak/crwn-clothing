@@ -14,15 +14,6 @@ const userReducer = (state = INITIAL_STATE, action) => {
     default:
       return state;
   }
-
-  // if (action.type === "SET_CURRENT_USER") {
-  //   return {
-  //     ...state,
-  //     currentUser: action.payload,
-  //   };
-  // }
-
-  // return state;
 };
 
 export default userReducer;
